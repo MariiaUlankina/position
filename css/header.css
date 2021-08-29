@@ -19,7 +19,7 @@ nav{
     width: 265px;
     height: 207px;
     padding: 10px 0;
-    display: none;
+    visibility: hidden;
     
 }
 
@@ -60,5 +60,5 @@ nav li a{
 
 
 .wrapper:hover nav{
-    display: block;
+    visibility: visible;
 }
